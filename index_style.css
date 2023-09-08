@@ -1,0 +1,357 @@
+html {
+    background-color: #525252;
+}
+
+body {
+    font-family: Poppins, ubuntu, roboto, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    font-family: ubuntu, Poppins, roboto, Arial, Helvetica, sans-serif;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+aside {
+    /* width: 300px;
+    height: auto;
+    float: right;
+    padding: 20px;
+    background-color: #333;
+    margin-left: 20px;
+    clear: right;
+    margin-bottom: 100px; */
+
+    width: 300px;
+    height: auto;
+    float: right;
+    padding: 20px;
+    background-color: #333;
+    margin-left: 20px;
+    clear: right;
+    margin-bottom: 100px;
+}
+
+aside a{
+    text-align: left;
+}
+.publication_title{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin-top: 10px; 
+    overflow: hidden;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  .mySlides img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 2.5s;
+  }
+  
+  @keyframes fade {
+    0% {
+      opacity: 0.4;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+section p{
+    text-align: justify;
+}
+section h2{
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem;
+}
+
+section h3{
+    background-color: #fff;
+    color: #333;
+    padding: 0.25rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.photo{
+    width: auto;
+    height: 400px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.photo:hover{
+    width: 405px;
+    height: auto;
+    border-radius: 25.5px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    box-shadow: 02px 02px 02px;
+    border-color: #dddddd;
+}
+
+section {
+    padding: 40px 0;
+    bottom: 40px;
+}
+
+section h2 {
+    font-size: 24px;
+}
+
+.social-media{
+    align-items: center;
+    width: 400px;
+    display: flex;
+    margin: auto;
+}
+
+.social-media a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+    background-color: #ccc;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.twitter {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+    background-color: #ccc;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.twitter:hover {
+    text-decoration: none;
+    color: #26a7de;
+    font-family: ubuntu, roboto, Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    font-style: bold;
+}
+
+.facebook {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+    background-color: #ccc;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.facebook:hover {
+    text-decoration: none;
+    color: #43609C;
+    font-family: ubuntu, roboto, Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    font-style: bold;
+}
+
+.linkedin {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+    background-color: #ccc;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.linkedin:hover {
+    text-decoration: none;
+    color: #0e76a8;
+    font-family: ubuntu, roboto, Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    font-style: bold;
+}
+
+.whatsapp {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+    background-color: #ccc;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.whatsapp:hover {
+    text-decoration: none;
+    color: #25D366;
+    font-family: ubuntu, roboto, Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    font-style: bold;
+}
+
+.email {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+    background-color: #ccc;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.email:hover {
+    text-decoration: none;
+    color: rgb(133, 5, 5);
+    font-family: ubuntu, roboto, Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    font-style: bold;
+}
+
+footer {
+    /* position: relative;
+    left: 0px;
+    right: 0px;
+    top: 100%;
+    padding: 10px;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center; */
+    position: relative;
+    left: 0px;
+    right: 0px;
+    top: auto;
+    padding: 10px;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin-top: auto;
+}
+
+
+@media screen and (max-width: 768px) {
+    body {
+       width: auto;
+    }
+
+    header {
+        width: auto;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    aside {
+        width: auto;
+        padding: auto;
+        margin: auto;
+    }
+    .social-media{
+        align-items: center;
+        width: auto;
+        display: inline-block;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        padding: 0px;
+    }
+    
+
+    .twitter {
+        align-items: center;
+        width: auto;
+        display: inline-block;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        padding: 0px;
+        color: #26a7de;
+        background-color: #ccc;
+    }
+    
+    .facebook {
+        align-items: center;
+        width: auto;
+        display: inline-block;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        padding: 0px;
+        color: #43609C;
+        background-color: #ccc;
+    }
+    
+    .linkedin {
+
+        align-items: center;
+        width: auto;
+        display: inline-block;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        padding: 0px;
+        color: #0e76a8;
+        background-color: #ccc;
+    }
+    
+    .whatsapp {
+        align-items: center;
+        width: auto;
+        display: inline-block;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        padding: 0px;
+        color: #25D366;
+        background-color: #ccc;
+    }
+
+    .email {
+        align-items: center;
+        width: auto;
+        display: inline-block;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        padding: 0px;
+        color: rgb(133, 5, 5);
+        background-color: #ccc;
+    }
+}
